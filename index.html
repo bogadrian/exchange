@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"  >
+ <link rel="stylesheet" href="style.css"/>
+  <title>Exchanage App</title>
+</head>
+<body class="bg-light">
+  <div class="container">
+    <div class="row">
+     <div class="col-md-6 mx-auto">
+       <div class="card card-body img-fluid text-center mt-4">
+          <img class="card-img img" src="img/euro-dollar.jpg">
+          <div class="card-img-overlay">
+          <h4 class="display-6 text-primary font-weight-bold ">Get Up To Date Currency </h4>
+          <div class="text-center">
+
+        <form id="form">
+          <div class="form-item float-right mt-2">
+            <label class="mr-2 font-weight-bold" for="country">Chose Country Currency : </label>
+            <input type="text" id="country1" list="country_list1">
+            <datalist id="country_list1">
+<option value="EUR">Euro - EUR</option>
+<option value="USD">  UNITED STATES OF AMERICA	US Dollar	USD </option>
+<option value="GBP"> UNITED KINDOM	Pound Sterling	GBP </option>
+<option value="AED"> UNITED ARAB EMIRATES (THE)	UAE Dirham	AED  </option>
+<option value="AFN"> AFGHANISTAN	Afghani	AFN  </option>
+<option value="ALL">  ALBANIA	Lek	ALL </option>
+<option value="AMD">  ARMENIA	Armenian Dram	AMD </option>
+<option value="ANG">  CURAÇAO	Netherlands Antillean Guilder	ANG </option>
+<option value="AOA">  ANGOLA	Kwanza	AOA </option>
+<option value="ARS"> ARGENTINA	Argentine Peso	ARS  </option>
+<option value="AUD"> AUSTRALIA	Australian Dollar	AUD  </option>
+<option value="AWG"> ARUBA	Aruban Florin	AWG  </option>
+<option value="AZN">  AZERBAIJAN	Azerbaijanian Manat	AZN </option>
+<option value="BAM"> BOSNIA AND HERZEGOVINA	Convertible Mark	BAM  </option>
+<option value="BBD">  BARBADOS	Barbados Dollar	BBD </option>
+<option value="BDT">  BANGLADESH	Taka	BDT </option>
+<option value="BGN">  BULGARIA	Bulgarian Lev	BGN </option>
+<option value="BHD">  BAHRAIN	Bahraini Dinar	BHD </option>
+<option value="BIF"> BURUNDI	Burundi Franc	BIF  </option>
+<option value="BMD">  BERMUDA	Bermudian Dollar	BMD </option>
+<option value="BND"> BRUNEI DARUSSALAM	Brunei Dollar	BND  </option>
+<option value="BOB"> BOLIVIA (PLURINATIONAL STATE OF)	Boliviano	BOB  </option>
+<option value="BRL">  BRAZIL	Brazilian Real	BRL </option>
+<option value="BSD"> BAHAMAS (THE)	Bahamian Dollar	BSD  </option>
+<option value="BTN"> BHUTAN	Ngultrum	BTN  </option>
+<option value="BWP"> BOTSWANA	Pula	BWP  </option>
+<option value="BYN">  BELARUS	Belarussian Ruble	BYN </option>
+<option value="BZD"> BELIZE	Belize Dollar	BZD  </option>
+<option value="CAD"> CANADA	Canadian Dollar	CAD  </option>
+<option value="CDF"> CONGO	Congolese Franc	CDF  </option>
+<option value="CHF"> WITZERLAND	WIR Euro	CHE  </option>
+<option value="CLF"> CHILE	Unidad de Fomento	CLF  </option>
+<option value="CLP"> CHILE	Chilean Peso	CLP  </option>
+<option value="CNY"> CHINA	Yuan Renminbi	CNY  </option>
+<option value="COP"> COLOMBIA	Colombian Peso	COP  </option>
+<option value="CRC">  COSTA RICA	Costa Rican Colon	CRC </option>
+<option value="CUC"> CUBA	Peso Convertible	CUC  </option>
+<option value="CUP"> CUBA	Cuban Peso	CUP  </option>
+<option value="CVE">  CABO VERDE	Cabo Verde Escudo	CVE </option>
+<option value="CZK"> CZECH REPUBLIC	Czech Koruna	CZK  </option>
+<option value="DJF">  DJIBOUTI	Djibouti Franc	DJF </option>
+<option value="DKK"> DENMARK	Danish Krone	DKK  </option>
+<option value="DOP">   </option>
+<option value="DZD"> ALGERIA	Algerian Dinar	DZD  </option>
+<option value="EGP">  EGYPT	Egyptian Pound	EGP </option>
+<option value="ERN"> ERITREA	Nakfa	ERN  </option>
+<option value="ETB">  ETHIOPIA	Ethiopian Birr	ETB </option>
+<option value="FJD"> FIJI	Fiji Dollar	FJD  </option>
+<option value="FKP"> FALKLAND ISLANDS	Falkland Islands Pound	FKP  </option>
+<option value="GEL">  GEORGIA	Lari	GEL </option>
+<option value="GHS"> GHANA	Ghana Cedi	GHS  </option>
+<option value="GIP"> GIBRALTAR	Gibraltar Pound	GIP  </option>
+<option value="GMD"> GAMBIA	Dalasi	GMD  </option>
+<option value="GNF">  GUINEA	Guinea Franc	GNF </option>
+<option value="GTQ"> GUATEMALA	Quetzal	GTQ  </option>
+<option value="GYD">  GUYANA	Guyana Dollar	GYD </option>
+<option value="HKD"> HONG KONG	Hong Kong Dollar	HKD  </option>
+<option value="HNL"> HONDURAS	Lempira	HNL	  </option>
+<option value="HRK"> CROATIA	Kuna	HRK  </option>
+<option value="HTG"> HAITI	Gourde	HTG  </option>
+<option value="HUF">  HUNGARY	Forint	HUF	 </option>
+<option value="IDR"> INDONESIA	Rupiah	IDR  </option>
+<option value="ILS">  ISRAEL	New Israeli Sheqel	ILS </option>
+<option value="INR">  BHUTAN	Indian Rupee	INR </option>
+<option value="IQD">  IRAQ	Iraqi Dinar	IQD </option>
+<option value="IRR">  IRAN	Iranian Rial	IRR </option>
+<option value="ISK">  ICELAND	Iceland Krona	ISK </option>
+<option value="JMD">  JAMAICA	Jamaican Dollar	JMD </option>
+<option value="JOD"> JORDAN	Jordanian Dinar	JOD  </option>
+<option value="JPY">  JAPAN	Yen	JPY </option>
+<option value="KES">  KENYA	Kenyan Shilling	KES </option>
+<option value="KGS"> KYRGYZSTAN	Som	KGS  </option>
+<option value="KHR"> CAMBODIA	Riel	KHR  </option>
+<option value="KMF">  COMOROS	Comoro Franc	KMF </option>
+<option value="KPW">  KOREA	North Korean Won	KPW </option>
+<option value="KRW"> KOREA	Won	KRW  </option>
+<option value="KWD">  KUWAIT	Kuwaiti Dinar	KWD </option>
+<option value="KYD">  CAYMAN ISLANDS Cayman Islands Dollar	KYD </option>
+<option value="KZT"> KAZAKHSTAN	Tenge	KZT  </option>
+<option value="LAK"> LAO PEOPLE’S DEMOCRATIC REPUBLIC Kip	LAK  </option>
+<option value="LBP"> LEBANON	Lebanese Pound	LBP  </option>
+<option value="LKR"> SRI LANKA	Sri Lanka Rupee	LKR  </option>
+<option value="LRD"> LIBERIA	Liberian Dollar	LRD  </option>
+<option value="LSL">  LESOTHO	Loti	LSL </option>
+<option value="LYD">  LIBYA	Libyan Dinar	LYD </option>
+<option value="MAD"> MOROCCO	Moroccan Dirham	MAD  </option>
+<option value="MDL"> MOLDOVA	Moldovan Leu	MD  </option>
+<option value="MGA"> MADAGASCAR	Malagasy Ariary	MGA  </option>
+<option value="MKD">  MACEDONIA	Denar	MKD </option>
+<option value="MMK"> MYANMAR	Kyat	MMK  </option>
+<option value="MNT"> MONGOLIA	Tugrik	MNT	  </option>
+<option value="MOP"> MACAO	Pataca	MOP  </option>
+<option value="MUR">  MAURITIUS	Mauritius Rupee	MUR	 </option>
+<option value="MVR"> MALDIVES	Rufiyaa	MVR  </option>
+<option value="MWK"> MALAWI	Kwacha	MWK  </option>
+<option value="MXN"> MEXICO	Mexican Peso	MXN  </option>
+<option value="MYR">  MALAYSIA	Malaysian Ringgit	MYR </option>
+<option value="MZN"> MOZAMBIQUE	Mozambique Metical	MZN  </option>
+<option value="NAD"> NAMIBIA	Namibia Dollar	NAD  </option>
+<option value="NGN"> NIGERIA	Naira	NGN  </option>
+<option value="NIO">  NICARAGUA	Cordoba Oro	NIO </option>
+<option value="NOK"> NORWAY	Norwegian Krone	NOK  </option>
+<option value="NPR"> NEPAL	Nepalese Rupee	NPR  </option>
+<option value="NZD"> COOK ISLANDS	New Zealand Dollar	NZD  </option>
+<option value="OMR"> OMAN	Rial Omani	OMR  </option>
+<option value="PAB"> PANAMA	Balboa	PAB  </option>
+<option value="PEN"> PERU	Nuevo Sol	PEN  </option>
+<option value="PGK"> PAPUA NEW GUINEA	Kina	PG  </option>
+<option value="PHP">  PHILIPPINES	Philippine Peso	PHP </option>
+<option value="PKR"> PAKISTAN	Pakistan Rupee	PKR  </option>
+<option value="PLN">  POLAND	Zloty	PLN </option>
+<option value="PYG"> PARAGUAY	Guarani	PYG  </option>
+<option value="QAR"> QATAR	Qatari Rial	QAR  </option>
+<option value="RON"> ROMANIA	Romanian Leu	RON  </option>
+<option value="RSD"> SERBIA	Serbian Dinar	RSD	  </option>
+<option value="RUB"> RUSSIAN FEDERATION 	Russian Ruble	RUB  </option>
+<option value="RWF"> RWANDA	Rwanda Franc	RWF  </option>
+<option value="SAR">  SAUDI ARABIA	Saudi Riyal	SAR </option>
+<option value="SBD">  SOLOMON ISLANDS	Solomon Islands Dollar	SBD </option>
+<option value="SCR"> SEYCHELLES	Seychelles Rupee	SCR  </option>
+<option value="SDG"> SUDAN	Sudanese Pound	SDG	  </option>
+<option value="SEK"> SWEDEN	Swedish Krona	SEK  </option>
+<option value="SGD"> SINGAPORE	Singapore Dollar	SGD  </option>
+<option value="SLL"> SIERRA LEONE	Leone	SLL  </option>
+<option value="SOS"> SOMALIA	Somali Shilling	SOS  </option>
+<option value="SRD">  SURINAME	Surinam Dollar	SRD </option>
+<option value="SVC"> EL SALVADOR	El Salvador Colon	SVC  </option>
+<option value="SYP">  SYRIAN ARAB REPUBLIC	Syrian Pound	SYP </option>
+<option value="SZL">  SWAZILAND	Lilangeni	SZL </option>
+<option value="THB">  THAILAND	Baht	THB </option>
+<option value="TJS">  TAJIKISTAN	Somoni	TJS </option>
+<option value="TMT">  TURKMENISTAN	Turkmenistan New Manat	TMT </option>
+<option value="TND"> TUNISIA	Tunisian Dinar	TND	  </option>
+<option value="TOP"> TONGA	Pa’anga	TOP	  </option>
+<option value="TRY"> TURKEY	Turkish Lira	TRY  </option>
+<option value="TTD"> TRINIDAD AND TOBAGO	Trinidad and Tobago Dollar	TTD  </option>
+<option value="TWD"> TAIWAN	New Taiwan Dollar	TWD  </option>
+<option value="TZS">  TANZANIA	Tanzanian Shilling	TZS </option>
+<option value="UAH">  UKRAINE	Hryvnia	UAH </option>
+<option value="UGX">  UGANDA	Uganda Shilling	UGX </option>
+<option value="UYU">  URUGUAY	Peso Uruguayo	UYU </option>
+<option value="UZS"> UZBEKISTAN	Uzbekistan Sum	UZS  </option>
+<option value="VEF">  VENEZUELA	Bolivar	VEF </option>
+<option value="VND">  VIET NAM	Dong	VND </option>
+<option value="VUV">  VANUATU	Vatu	VUV </option>
+<option value="WST">  SAMOA	Tala	WST </option>
+<option value="XAF">  CAMEROON	CFA Franc BEAC	XAF </option>
+<option value="XCD"> ANGUILLA	East Caribbean Dollar	XCD  </option>
+<option value="XDR"> IMF 	SDR Special Drawing Right	XDR  </option>
+<option value="XOF">  BENIN	CFA Franc BCEAO	XOF </option>
+<option value="XPF"> WALLIS AND FUTUNA	CFP Franc	XPF  </option>
+<option value="YER"> YEMEN	Yemeni Rial	YER </option>
+<option value="ZAR"> SOUTH AFRICA	Rand	ZAR  </option>
+<option value="ZMK">  ZAMBIA	Zambian Kwacha	ZMW </option>
+<option value="ZMW">  ZAMBIA	Zambian Kwacha	ZMW </option>
+<option value="ZWL"> ZIMBABWE	Zimbabwe Dollar	ZWL  </option>
+            </datalist>
+          </div>
+            <div class="form-item float-right mt-2">
+            <label class="mr-2 font-weight-bold" for="name">Amount to be change: </label>
+            <input type="number" step="any" min="0" id="amount" >
+         </div>
+          
+          <div class="form-item float-right mt-2 mb-3">
+            <label class="mr-2 font-weight-bold" for="country">Country Currency Output: </label>
+            <input type="text" id="country2" list="country_list2">
+            <datalist id="country_list2">
+<option value="EUR">Euro - EUR</option>
+<option value="USD">  UNITED STATES OF AMERICA	US Dollar	USD </option>
+<option value="GBP"> UNITED KINDOM	Pound Sterling	GBP </option>
+<option value="AED"> UNITED ARAB EMIRATES (THE)	UAE Dirham	AED  </option>
+<option value="AFN"> AFGHANISTAN	Afghani	AFN  </option>
+<option value="ALL">  ALBANIA	Lek	ALL </option>
+<option value="AMD">  ARMENIA	Armenian Dram	AMD </option>
+<option value="ANG">  CURAÇAO	Netherlands Antillean Guilder	ANG </option>
+<option value="AOA">  ANGOLA	Kwanza	AOA </option>
+<option value="ARS"> ARGENTINA	Argentine Peso	ARS  </option>
+<option value="AUD"> AUSTRALIA	Australian Dollar	AUD  </option>
+<option value="AWG"> ARUBA	Aruban Florin	AWG  </option>
+<option value="AZN">  AZERBAIJAN	Azerbaijanian Manat	AZN </option>
+<option value="BAM"> BOSNIA AND HERZEGOVINA	Convertible Mark	BAM  </option>
+<option value="BBD">  BARBADOS	Barbados Dollar	BBD </option>
+<option value="BDT">  BANGLADESH	Taka	BDT </option>
+<option value="BGN">  BULGARIA	Bulgarian Lev	BGN </option>
+<option value="BHD">  BAHRAIN	Bahraini Dinar	BHD </option>
+<option value="BIF"> BURUNDI	Burundi Franc	BIF  </option>
+<option value="BMD">  BERMUDA	Bermudian Dollar	BMD </option>
+<option value="BND"> BRUNEI DARUSSALAM	Brunei Dollar	BND  </option>
+<option value="BOB"> BOLIVIA (PLURINATIONAL STATE OF)	Boliviano	BOB  </option>
+<option value="BRL">  BRAZIL	Brazilian Real	BRL </option>
+<option value="BSD"> BAHAMAS (THE)	Bahamian Dollar	BSD  </option>
+<option value="BTN"> BHUTAN	Ngultrum	BTN  </option>
+<option value="BWP"> BOTSWANA	Pula	BWP  </option>
+<option value="BYN">  BELARUS	Belarussian Ruble	BYN </option>
+<option value="BZD"> BELIZE	Belize Dollar	BZD  </option>
+<option value="CAD"> CANADA	Canadian Dollar	CAD  </option>
+<option value="CDF"> CONGO	Congolese Franc	CDF  </option>
+<option value="CHF"> WITZERLAND	WIR Euro	CHE  </option>
+<option value="CLF"> CHILE	Unidad de Fomento	CLF  </option>
+<option value="CLP"> CHILE	Chilean Peso	CLP  </option>
+<option value="CNY"> CHINA	Yuan Renminbi	CNY  </option>
+<option value="COP"> COLOMBIA	Colombian Peso	COP  </option>
+<option value="CRC">  COSTA RICA	Costa Rican Colon	CRC </option>
+<option value="CUC"> CUBA	Peso Convertible	CUC  </option>
+<option value="CUP"> CUBA	Cuban Peso	CUP  </option>
+<option value="CVE">  CABO VERDE	Cabo Verde Escudo	CVE </option>
+<option value="CZK"> CZECH REPUBLIC	Czech Koruna	CZK  </option>
+<option value="DJF">  DJIBOUTI	Djibouti Franc	DJF </option>
+<option value="DKK"> DENMARK	Danish Krone	DKK  </option>
+<option value="DOP">   </option>
+<option value="DZD"> ALGERIA	Algerian Dinar	DZD  </option>
+<option value="EGP">  EGYPT	Egyptian Pound	EGP </option>
+<option value="ERN"> ERITREA	Nakfa	ERN  </option>
+<option value="ETB">  ETHIOPIA	Ethiopian Birr	ETB </option>
+<option value="FJD"> FIJI	Fiji Dollar	FJD  </option>
+<option value="FKP"> FALKLAND ISLANDS	Falkland Islands Pound	FKP  </option>
+<option value="GEL">  GEORGIA	Lari	GEL </option>
+<option value="GHS"> GHANA	Ghana Cedi	GHS  </option>
+<option value="GIP"> GIBRALTAR	Gibraltar Pound	GIP  </option>
+<option value="GMD"> GAMBIA	Dalasi	GMD  </option>
+<option value="GNF">  GUINEA	Guinea Franc	GNF </option>
+<option value="GTQ"> GUATEMALA	Quetzal	GTQ  </option>
+<option value="GYD">  GUYANA	Guyana Dollar	GYD </option>
+<option value="HKD"> HONG KONG	Hong Kong Dollar	HKD  </option>
+<option value="HNL"> HONDURAS	Lempira	HNL	  </option>
+<option value="HRK"> CROATIA	Kuna	HRK  </option>
+<option value="HTG"> HAITI	Gourde	HTG  </option>
+<option value="HUF">  HUNGARY	Forint	HUF	 </option>
+<option value="IDR"> INDONESIA	Rupiah	IDR  </option>
+<option value="ILS">  ISRAEL	New Israeli Sheqel	ILS </option>
+<option value="INR">  BHUTAN	Indian Rupee	INR </option>
+<option value="IQD">  IRAQ	Iraqi Dinar	IQD </option>
+<option value="IRR">  IRAN	Iranian Rial	IRR </option>
+<option value="ISK">  ICELAND	Iceland Krona	ISK </option>
+<option value="JMD">  JAMAICA	Jamaican Dollar	JMD </option>
+<option value="JOD"> JORDAN	Jordanian Dinar	JOD  </option>
+<option value="JPY">  JAPAN	Yen	JPY </option>
+<option value="KES">  KENYA	Kenyan Shilling	KES </option>
+<option value="KGS"> KYRGYZSTAN	Som	KGS  </option>
+<option value="KHR"> CAMBODIA	Riel	KHR  </option>
+<option value="KMF">  COMOROS	Comoro Franc	KMF </option>
+<option value="KPW">  KOREA	North Korean Won	KPW </option>
+<option value="KRW"> KOREA	Won	KRW  </option>
+<option value="KWD">  KUWAIT	Kuwaiti Dinar	KWD </option>
+<option value="KYD">  CAYMAN ISLANDS Cayman Islands Dollar	KYD </option>
+<option value="KZT"> KAZAKHSTAN	Tenge	KZT  </option>
+<option value="LAK"> LAO PEOPLE’S DEMOCRATIC REPUBLIC Kip	LAK  </option>
+<option value="LBP"> LEBANON	Lebanese Pound	LBP  </option>
+<option value="LKR"> SRI LANKA	Sri Lanka Rupee	LKR  </option>
+<option value="LRD"> LIBERIA	Liberian Dollar	LRD  </option>
+<option value="LSL">  LESOTHO	Loti	LSL </option>
+<option value="LYD">  LIBYA	Libyan Dinar	LYD </option>
+<option value="MAD"> MOROCCO	Moroccan Dirham	MAD  </option>
+<option value="MDL"> MOLDOVA	Moldovan Leu	MD  </option>
+<option value="MGA"> MADAGASCAR	Malagasy Ariary	MGA  </option>
+<option value="MKD">  MACEDONIA	Denar	MKD </option>
+<option value="MMK"> MYANMAR	Kyat	MMK  </option>
+<option value="MNT"> MONGOLIA	Tugrik	MNT	  </option>
+<option value="MOP"> MACAO	Pataca	MOP  </option>
+<option value="MUR">  MAURITIUS	Mauritius Rupee	MUR	 </option>
+<option value="MVR"> MALDIVES	Rufiyaa	MVR  </option>
+<option value="MWK"> MALAWI	Kwacha	MWK  </option>
+<option value="MXN"> MEXICO	Mexican Peso	MXN  </option>
+<option value="MYR">  MALAYSIA	Malaysian Ringgit	MYR </option>
+<option value="MZN"> MOZAMBIQUE	Mozambique Metical	MZN  </option>
+<option value="NAD"> NAMIBIA	Namibia Dollar	NAD  </option>
+<option value="NGN"> NIGERIA	Naira	NGN  </option>
+<option value="NIO">  NICARAGUA	Cordoba Oro	NIO </option>
+<option value="NOK"> NORWAY	Norwegian Krone	NOK  </option>
+<option value="NPR"> NEPAL	Nepalese Rupee	NPR  </option>
+<option value="NZD"> COOK ISLANDS	New Zealand Dollar	NZD  </option>
+<option value="OMR"> OMAN	Rial Omani	OMR  </option>
+<option value="PAB"> PANAMA	Balboa	PAB  </option>
+<option value="PEN"> PERU	Nuevo Sol	PEN  </option>
+<option value="PGK"> PAPUA NEW GUINEA	Kina	PG  </option>
+<option value="PHP">  PHILIPPINES	Philippine Peso	PHP </option>
+<option value="PKR"> PAKISTAN	Pakistan Rupee	PKR  </option>
+<option value="PLN">  POLAND	Zloty	PLN </option>
+<option value="PYG"> PARAGUAY	Guarani	PYG  </option>
+<option value="QAR"> QATAR	Qatari Rial	QAR  </option>
+<option value="RON"> ROMANIA	Romanian Leu	RON  </option>
+<option value="RSD"> SERBIA	Serbian Dinar	RSD	  </option>
+<option value="RUB"> RUSSIAN FEDERATION 	Russian Ruble	RUB  </option>
+<option value="RWF"> RWANDA	Rwanda Franc	RWF  </option>
+<option value="SAR">  SAUDI ARABIA	Saudi Riyal	SAR </option>
+<option value="SBD">  SOLOMON ISLANDS	Solomon Islands Dollar	SBD </option>
+<option value="SCR"> SEYCHELLES	Seychelles Rupee	SCR  </option>
+<option value="SDG"> SUDAN	Sudanese Pound	SDG	  </option>
+<option value="SEK"> SWEDEN	Swedish Krona	SEK  </option>
+<option value="SGD"> SINGAPORE	Singapore Dollar	SGD  </option>
+<option value="SLL"> SIERRA LEONE	Leone	SLL  </option>
+<option value="SOS"> SOMALIA	Somali Shilling	SOS  </option>
+<option value="SRD">  SURINAME	Surinam Dollar	SRD </option>
+<option value="SVC"> EL SALVADOR	El Salvador Colon	SVC  </option>
+<option value="SYP">  SYRIAN ARAB REPUBLIC	Syrian Pound	SYP </option>
+<option value="SZL">  SWAZILAND	Lilangeni	SZL </option>
+<option value="THB">  THAILAND	Baht	THB </option>
+<option value="TJS">  TAJIKISTAN	Somoni	TJS </option>
+<option value="TMT">  TURKMENISTAN	Turkmenistan New Manat	TMT </option>
+<option value="TND"> TUNISIA	Tunisian Dinar	TND	  </option>
+<option value="TOP"> TONGA	Pa’anga	TOP	  </option>
+<option value="TRY"> TURKEY	Turkish Lira	TRY  </option>
+<option value="TTD"> TRINIDAD AND TOBAGO	Trinidad and Tobago Dollar	TTD  </option>
+<option value="TWD"> TAIWAN	New Taiwan Dollar	TWD  </option>
+<option value="TZS">  TANZANIA	Tanzanian Shilling	TZS </option>
+<option value="UAH">  UKRAINE	Hryvnia	UAH </option>
+<option value="UGX">  UGANDA	Uganda Shilling	UGX </option>
+<option value="UYU">  URUGUAY	Peso Uruguayo	UYU </option>
+<option value="UZS"> UZBEKISTAN	Uzbekistan Sum	UZS  </option>
+<option value="VEF">  VENEZUELA	Bolivar	VEF </option>
+<option value="VND">  VIET NAM	Dong	VND </option>
+<option value="VUV">  VANUATU	Vatu	VUV </option>
+<option value="WST">  SAMOA	Tala	WST </option>
+<option value="XAF">  CAMEROON	CFA Franc BEAC	XAF </option>
+<option value="XCD"> ANGUILLA	East Caribbean Dollar	XCD  </option>
+<option value="XDR"> IMF 	SDR Special Drawing Right	XDR  </option>
+<option value="XOF">  BENIN	CFA Franc BCEAO	XOF </option>
+<option value="XPF"> WALLIS AND FUTUNA	CFP Franc	XPF  </option>
+<option value="YER"> YEMEN	Yemeni Rial	YER </option>
+<option value="ZAR"> SOUTH AFRICA	Rand	ZAR  </option>
+<option value="ZMK">  ZAMBIA	Zambian Kwacha	ZMW </option>
+<option value="ZMW">  ZAMBIA	Zambian Kwacha	ZMW </option>
+<option value="ZWL"> ZIMBABWE	Zimbabwe Dollar	ZWL  </option>
+            </datalist>
+            </div>
+          </br>
+          
+              <div class="button mt-10">
+                  <div class="form-item">
+                    <button class="btn btn-block btn-outline-primary font-weight-bold"id="submit" >Submit</button>
+                 </div>
+                 </div>
+          </div>
+        </form>
+        <!--Loader-->
+        <div id="loader" class="d-none mt-3">
+          <img src="img/loading.gif">
+        </div>
+         <!--Today Course-->
+         <div id="course-dayly" class="text-success d-none"> 
+          <div class="card-body">
+            <p></p>
+          </div>
+        </div>
+       <!--Result Div-->
+        <div id="resultat" class="mt-3"> 
+          <div class="card-body">
+            <p></p>
+          </div>
+        </div>
+        <!-- alert div -->
+        <div id="alert" class="d-none alert alert-danger"> 
+          <div class="card-body">
+            <p class="text-danger display-5">Please chose a corect name of country/currency</p>
+            <h6 class="blockquote text-muted h6 float-right mt-5">App created by Bogdan Adrian</h6>
+          </div>
+        </div>
+        </div>
+       </div>
+     </div>
+    </div>
+  </div>
+
+<script src="fetch.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
+
